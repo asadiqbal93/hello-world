@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+enum {max_string = 127};
+static char string [max_string +1] = "";
+
+
+int main()
+{
+   printf("Type a string:");
+   fgets(string,max_string, stdin);
+   printf("The string is %s \n",string);
+
+
+    return 0;
+}
+
+
+
