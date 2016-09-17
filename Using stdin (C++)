@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    string inputString;
+    cout << "Type a string: ";
+    cin >> inputString;
+    cout << "Input is: "<< inputString <<endl;
+    return 0;
+
+}
