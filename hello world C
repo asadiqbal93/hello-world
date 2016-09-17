@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+  int main() {
+  
+  printf("Hello , world");
+  
+  return 0;
+  
+  }
+  
+  OR
+  
+  #include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    fprintf(stdout, "Hello world!\n");
+    fprintf(stderr, "Hello world!\n");
+
+    return 0;
+}
+
+
+
